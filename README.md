@@ -1,1 +1,1 @@
-# heatlhy-food
+# healthy-food
