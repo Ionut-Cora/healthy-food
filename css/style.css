@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Mincho', serif;
+}
+
+/* navbar */
+
+nav {
+    background-color: #81B622;
+}
+
+.navbar-brand,
+.nav-link,
+.nav-item {
+    color: #3D550C;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.nav-item:hover {
+    color: #ECF87F;
+}
+
+#products {
+    background-color: #81B622;
+}
+
+#vegetables:hover,
+#fruits:hover,
+#meat:hover {
+    cursor: pointer;
+}
+
+#toggler-button {
+    border: 2px solid #3D550C;
+}
+
+#toggler-span {
+    padding-top: 2px;
+}
+
+/* index */
+/* carousel */
+
+.title {
+    margin-bottom: 30%;
+    font-size: 150px;
+    color: #ECF87F;
+}
+
+.picture {
+    filter: brightness(50%);
+}
+
+/* section mean */
+
+.mean-title,
+.mean-description {
+    color: #3D550C;
+}
+
+.mean-description,
+.tips-description {
+    font-size: 1.3rem;
+}
+
+.mean-title,
+.tips-title {
+    font-size: 3rem;
+}
+
+/* section mean */
+
+#mean-section {
+    background-color: #ECF87F;
+}
+
+/* section tips */
+
+#tips {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(images/tips.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/tips.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.tips-title,
+.tips-description {
+    color: #ECF87F;
+}
+
+#tips-text ul {
+    /* position: absolute; */
+    list-style-type: none;
+    padding-top: 10%;
+}
+
+/* vegetables */
+
+
+
+.product-type {
+    font-size: 4rem;
+    color: #3D550C;
+}
+
+.product-title {
+    font-size: 3rem;
+    color: #3D550C;
+}
+
+.product-description {
+    font-size: 1.3rem;
+    color: #3D550C;
+}
+
+/* footer */
+
+#footer {
+    background-color: #81B622;
+}
+
+#footer p {
+    color: #3D550C;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+    
+    
+
+    #tips-title {
+        font-size: 1.5rem;
+    }
+
+    #tips-description-one,
+    #tips-description-two,
+    #tips-description-three,
+    #tips-description-four,
+    #tips-description-five,
+    #tips-description-six,
+    #tips-description-seven,
+    #tips-description-eight {
+        font-size: 1rem;
+    }
+
+    .product-type {
+        font-size: 3rem;
+    }
+
+    .product-image {
+        height: 12rem;
+    }
+    
+}
+
+@media only screen and (max-width: 990px) {
+
+    .product-title-vegetables,
+    .product-title-fruits,
+    .product-title-meat {
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .title {
+        font-size: 100px;
+    }
+
+}
